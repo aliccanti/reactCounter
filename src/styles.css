@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #E63B2E, #E15634, #FF8547, #fbc490);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+  @keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .text {
+      font-size: 1.5rem;
+      padding: 1rem 2rem;
+    }
+  }
+
+
+.counter-container {
+
+    height: 10rem;
+    width: 10rem;
+
+    font-size: 5rem;
+
+    border-radius: 50%;
+
+    color: whitesmoke;
+    background-color: #FFAD85;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5rem auto 2rem auto;
+
+    -webkit-box-shadow: 3px 4px 5px -2px rgba(250, 244, 244, 0.75);
+    -moz-box-shadow: 3px 4px 5px -2px rgb(253, 247, 247);
+    box-shadow: 3px 4px 5px -2px rgb(250, 247, 247);
+}
+
+.btn-less,
+.btn-more,
+.btn-reset {
+
+    width: 6rem;
+    height: 2.5rem;
+
+    margin: 2rem 1rem 4rem 1rem;
+
+    border-radius: 3px;
+    border: 1px solid transparent;
+
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Archivo Black', sans-serif;
+
+    background-color: #fa8975;
+    color: whitesmoke;
+
+}
+
+.btn-less,
+.btn-more,
+.btn-reset:hover {
+    cursor: pointer;
+}
