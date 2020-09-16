@@ -10,4 +10,4 @@
   <li><a href="https://classic.yarnpkg.com/en/docs/install/">Yarn</li>
 </ul>
 
-<p align="center">👉👉<a href="https://q5z9h.csb.app/">Testa aqui ó! </a>👈👈</p>
+<p align="center">👉👉<a href="https://react-counter-one.vercel.app/">Testa aqui ó! </a>👈👈</p>
