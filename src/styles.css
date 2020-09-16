@@ -68,7 +68,7 @@ body {
     width: 6rem;
     height: 2.5rem;
 
-    margin: 2rem 1rem 4rem 1rem;
+    margin: 3rem 0.5rem 4rem 0.5rem;
 
     border-radius: 3px;
     border: 1px solid transparent;
@@ -86,4 +86,25 @@ body {
 .btn-more,
 .btn-reset:hover {
     cursor: pointer;
+}
+
+@media (min-width: 1100px) {
+  .counter-container {
+
+    width: 13rem;
+    height: 13rem;
+
+    font-size: 8rem;
+  }
+
+  .btn-less,
+  .btn-more,
+  .btn-reset {
+
+    width: 8rem;
+    height: 4rem;
+
+    font-size: 1.7rem;
+
+  }
 }
